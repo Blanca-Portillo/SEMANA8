@@ -1,6 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QVBoxLayout, QPushButton, QMessageBox
-from PyQt5.QtGui import QFont, QPalette, QColor
+from PyQt5.QtGui import QFont
 
 class SecretKeyWindow(QWidget):
     def __init__(self):
@@ -50,9 +50,8 @@ class SecretKeyWindow(QWidget):
         else:
             QMessageBox.information(self, 'Clave Secreta', f'La clave ingresada es: {secret_key}')
 
-# Inicializar la aplicación
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    window = SecretKeyWindow()
-    window.show()
-    sys.exit(app.exec_())
+# Inicializar la aplicación directamente
+app = QApplication(sys.argv)
+window = SecretKeyWindow()
+window.show()
+sys.exit(app.exec_())
