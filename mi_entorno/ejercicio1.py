@@ -12,30 +12,30 @@ class PersonalInfoWindow(QWidget):
         self.setGeometry(100, 100, 400, 200)
 
         # Fondo de la ventana
-        self.setStyleSheet("background-color: #f0f0f0;")  # Color de fondo
+        self.setStyleSheet("background-color: #f0f0f0;")  # color de fondo
 
         # Layout principal
         layout = QVBoxLayout()
-        layout.setSpacing(20)  # Espaciado entre widgets
+        layout.setSpacing(20)  # espaciado entre widgets
 
-        # Nombre completo centrado
+        # nombre completo centrado
         self.name_label = QLabel('Nombre Completo: Blanca Leticia Argueta Portillo')
-        self.name_label.setAlignment(Qt.AlignCenter)  # Centrar el texto
-        self.name_label.setFont(QFont('Arial', 16, QFont.Bold))  # Fuente más grande y negrita
-        self.name_label.setStyleSheet("color: #2e8b57;")  # Color de texto verde
+        self.name_label.setAlignment(Qt.AlignCenter)  # centrar el texto
+        self.name_label.setFont(QFont('Arial', 16, QFont.Bold))  # fuente más grande y negrita
+        self.name_label.setStyleSheet("color: #2e8b57;")  # color de texto verde
         layout.addWidget(self.name_label)
 
-        # Edad centrada
+        # edad centrada
         self.age_label = QLabel('Edad: 19 años')
-        self.age_label.setAlignment(Qt.AlignCenter)  # Centrar el texto
-        self.age_label.setFont(QFont('Arial', 16, QFont.Bold))  # Fuente más grande y negrita
-        self.age_label.setStyleSheet("color: #4682b4;")  # Color de texto azul
+        self.age_label.setAlignment(Qt.AlignCenter)  # centrar el texto
+        self.age_label.setFont(QFont('Arial', 16, QFont.Bold))  # fuente más grande y negrita
+        self.age_label.setStyleSheet("color: #4682b4;")  # color de texto azul
         layout.addWidget(self.age_label)
 
         # Configurar layout
         self.setLayout(layout)
 
-# Inicializar la aplicación directamente
+# inicializamos la aplicacion 
 app = QApplication(sys.argv)
 window = PersonalInfoWindow()
 window.show()
