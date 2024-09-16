@@ -1,4 +1,6 @@
 <P> INTEGRANTES: </P>
 <P>
 XAVIER ALEXANDER PÉREZ BONILLA  </P>
-BLANCA LETICIA ARGUETA PORTILLO
+<p> 
+BLANCA LETICIA ARGUETA PORTILLO </p>
+Los primeros tres ejercicios estan enla carpeta con nombre "mi_entorno"
