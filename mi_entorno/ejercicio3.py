@@ -60,7 +60,7 @@ class PersonalInfoWindow(QWidget):
         else:
             QMessageBox.information(self, 'Información Enviada', f'Número de Cédula: {cedula}\nNombre Completo: {nombre}')
 
-# inicializamos la aplicación 
+# inicializamos la aplicacion 
 app = QApplication(sys.argv)
 window = PersonalInfoWindow()
 window.show()

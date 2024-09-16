@@ -50,7 +50,7 @@ class SecretKeyWindow(QWidget):
         else:
             QMessageBox.information(self, 'Clave Secreta', f'La clave ingresada es: {secret_key}')
 
-# inicializamos la aplicación 
+# inicializamos la aplicacion 
 app = QApplication(sys.argv)
 window = SecretKeyWindow()
 window.show()
