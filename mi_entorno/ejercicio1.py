@@ -35,7 +35,7 @@ class PersonalInfoWindow(QWidget):
         # Configurar layout
         self.setLayout(layout)
 
-# inicializamos la aplicacion 
+# inicializamos la aplicación 
 app = QApplication(sys.argv)
 window = PersonalInfoWindow()
 window.show()
