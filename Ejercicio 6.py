@@ -1,6 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout, QRadioButton, QSpinBox, QPushButton, QMessageBox
-
+#Este programa permite a los usuarios seleccionar su nivel de actividad física (Bajo, Moderado o Alto) utilizando botones de radio (QRadioButton). Además, permite ingresar cuántas horas de ejercicio hacen por semana con un QSpinBox, que tiene un rango entre 0 y 40 horas. 
 class ActividadFisicaApp(QWidget):
     def __init__(self):
         super().__init__()
